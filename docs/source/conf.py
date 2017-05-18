@@ -42,8 +42,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'ChemSpiPy'
-copyright = u'2014, Matt Swain'
+project = 'ChemSpiPy'
+copyright = '2014, Matt Swain'
 
 # The version info for the project you're documenting, acts as replacement for |version| and |release|, also used in
 # various other places throughout the built documents.
@@ -181,7 +181,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'ChemSpiPy.tex', u'ChemSpiPy Documentation', u'Matt Swain', 'manual'),
+  ('index', 'ChemSpiPy.tex', 'ChemSpiPy Documentation', 'Matt Swain', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of the title page.
@@ -207,7 +207,7 @@ latex_domain_indices = False
 
 # One entry per manual page. List of tuples (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'chemspipy', u'ChemSpiPy Documentation', [u'Matt Swain'], 1)
+    ('index', 'chemspipy', 'ChemSpiPy Documentation', ['Matt Swain'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -219,7 +219,7 @@ man_pages = [
 # Grouping the document tree into Texinfo files. List of tuples
 # (source start file, target name, title, author, dir menu entry, description, category)
 texinfo_documents = [
-    ('index', 'ChemSpiPy', u'ChemSpiPy Documentation', u'Matt Swain', 'ChemSpiPy', 'One line description of project.',
+    ('index', 'ChemSpiPy', 'ChemSpiPy Documentation', 'Matt Swain', 'ChemSpiPy', 'One line description of project.',
      'Miscellaneous'),
 ]
 

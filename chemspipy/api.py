@@ -9,9 +9,9 @@ Core API for interacting with ChemSpider web services.
 :license: MIT, see LICENSE file for more details.
 """
 
-from __future__ import print_function
-from __future__ import unicode_literals
-from __future__ import division
+
+
+
 from base64 import b64decode
 import logging
 import sys
@@ -190,7 +190,7 @@ class BaseChemSpider(object):
         :rtype: string
         """
         querystring = []
-        for k, v in params.items():
+        for k, v in list(params.items()):
             querystring.append('%s=%s' % (k, six.moves.urllib.parse.quote_plus(six.text_type(v))))
         if self.security_token:
             querystring.append('token=%s' % self.security_token)
